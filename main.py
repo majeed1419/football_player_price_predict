@@ -2,10 +2,13 @@ from fastapi import FastAPI
 import joblib
 from pydantic import BaseModel
 
-model = joblib.load('knn.joblib')
-scaler = joblib.load('scaler.joblib')
+model = joblib.load('Models/knn.joblib')
+scaler = joblib.load('Models/scaler.joblib')
 
 app = FastAPI()
+@app.get("/")
+def root():
+    return "Welcome To Tuwaiq Academy"
 
 # Define a Pydantic model for input data validation
 class InputFeatures(BaseModel):
