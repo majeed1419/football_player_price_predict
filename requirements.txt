@@ -1,1 +1,10 @@
 fastapi[all]
+numpy
+requests
+joblib
+scikit-learn
+imbalanced-learn
+streamlit
+dtale
+datashader
+pyfume
