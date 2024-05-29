@@ -1,13 +1,5 @@
 fastapi[all]
-numpy
-requests
+pydantic
 joblib
+fastapi
 scikit-learn
-imbalanced-learn
-streamlit
-dtale
-datashader
-pyfume
-typer
-weasel
-spacy
