@@ -8,3 +8,6 @@ streamlit
 dtale
 datashader
 pyfume
+typer
+weasel
+spacy
